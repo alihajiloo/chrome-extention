@@ -11,12 +11,12 @@ npm run serve
 ```
 
 ## See Result
-go chrome://extensions/ address in your chrome browser and turn on Developer mode
+go [chrome://extensions/](chrome://extensions/) address in your chrome browser and turn on Developer mode
 
-then, click Load unpacked.
+then, click **Load unpacked**
 
-then, select the dist folder from this project.
+then, select the **dist** folder from this project directory.
 
-finally Open New Tab and Enjoy Using... 🍺
+finally Open **New Tab** and Enjoy Using... 🍺
 
 Good Luck 😉
