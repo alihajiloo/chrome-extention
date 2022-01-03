@@ -660,7 +660,6 @@ export default {
     datePicker: VuePersianDatetimePicker,
   },
   mounted() {
-    this.show = true
     if (localStorage.getItem('tasks'))
       this.tasks = JSON.parse(localStorage.getItem('tasks'))
 
