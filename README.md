@@ -1,24 +1,22 @@
-# codechit
+# Chrome Tool Box
 
 ## Project setup
 ```
-yarn install
+yarn
 ```
 
-### Compiles and hot-reloads for development
+## Run  Project
 ```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
+npm run serve
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
+## See Result
+go chrome://extensions/ address in your chrome browser and turn on Developer mode
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+then, click Load unpacked.
+
+then, select the dist folder from this project.
+
+finally Open New Tab and Enjoy Using... 🍺
+
+Good Luck 😉
