@@ -7,7 +7,7 @@ yarn
 
 ## Run  Project
 ```
-npm run serve
+yarn run serve
 ```
 
 ## See Result
