@@ -714,7 +714,6 @@ export default {
       }
     },
     saveTasks() {
-      console.log(JSON.stringify(this.tasks))
       localStorage.setItem('tasks', JSON.stringify(this.tasks))
     },
   },
