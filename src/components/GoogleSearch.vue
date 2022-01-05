@@ -4,11 +4,7 @@
   >
     <!---->
     <div class="flex flex-col items-center gap-3">
-      <!-- <img
-                src="/img/Google_logo.e99543bb.svg"
-                alt="لوگوی گوگل"
-                class="w-24"
-              /> -->
+      <img src="/icons/Google_logo.svg" alt="لوگوی گوگل" class="w-24" />
       <form
         target="_self"
         action="https://www.google.com/search"
