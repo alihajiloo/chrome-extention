@@ -60,7 +60,7 @@
          <!-- start: GoogleSearch -->
          <google-search/>
          <!-- end: GoogleSearch -->
-         
+
           <section>
             <div class="grid grid-cols-6 grid-rows-2 gap-y-3 gap-x-2.5">
               <div class="favorite">
@@ -411,10 +411,6 @@ export default {
       time: `${new Date().getHours()}:${new Date().getMinutes()} `,
       date: new Date().toISOString(),
       show: false,
-      tasks: [],
-      taskName: '',
-      taskFlag: '',
-      showTask: false,
     }
   },
   components: {
@@ -423,9 +419,6 @@ export default {
     GoogleSearch:GoogleSearch
   },
   mounted() {
-    if (localStorage.getItem('tasks'))
-      this.tasks = JSON.parse(localStorage.getItem('tasks'))
-
     $('#img').hide()
     $('#uploadButton').on('click', function () {
       $('#img').click()
@@ -449,36 +442,6 @@ export default {
         reader.readAsDataURL(file)
       }
     })
-  },
-  methods: {
-    addTask(name, flag) {
-      this.tasks.push({ name, flag })
-      this.saveTasks()
-    },
-    deleteTask(position) {
-      this.tasks.splice(position, 1)
-      this.saveTasks()
-    },
-    blurTask() {
-      var taskTitle = document.getElementById('taskTitle')
-      var tasksBody = document.getElementById('tasksBody')
-      var taskForm = document.getElementById('taskForm')
-
-      if (!this.showTask) {
-        this.showTask = true
-        taskTitle.classList.add('blur-sm')
-        tasksBody.classList.add('blur-sm')
-        taskForm.classList.add('blur-sm')
-      } else {
-        this.showTask = false
-        taskTitle.classList.remove('blur-sm')
-        tasksBody.classList.remove('blur-sm')
-        taskForm.classList.remove('blur-sm')
-      }
-    },
-    saveTasks() {
-      localStorage.setItem('tasks', JSON.stringify(this.tasks))
-    },
   },
 }
 </script>
