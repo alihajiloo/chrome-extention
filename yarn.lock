@@ -3103,7 +3103,7 @@ dashdash@^1.12.0:
 
 de-indent@^1.0.2:
   version "1.0.2"
-  resolved "https://registry.nlark.com/de-indent/download/de-indent-1.0.2.tgz"
+  resolved "https://registry.yarnpkg.com/de-indent/-/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
   integrity sha1-sgOOhG3DO6pXlhKNCAS0VbjB4h0=
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
@@ -6899,7 +6899,7 @@ postcss@^7, postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.18, po
 
 postcss@^8.3.5:
   version "8.4.5"
-  resolved "https://registry.npmjs.org/postcss/-/postcss-8.4.5.tgz"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.5.tgz#bae665764dfd4c6fcc24dc0fdf7e7aa00cc77f95"
   integrity sha512-jBDboWM8qpaqwkMwItqTQTiFikhs/67OYVvblFFTM7MrZjt6yMKd6r2kgXizEbTTljacm4NldIlZnhbjr84QYg==
   dependencies:
     nanoid "^3.1.30"
@@ -8743,8 +8743,8 @@ vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
 
 vue-template-compiler@^2.6.11:
   version "2.6.14"
-  resolved "https://registry.npmmirror.com/vue-template-compiler/download/vue-template-compiler-2.6.14.tgz"
-  integrity sha1-ovDn2YVnDULJye4NBE/tdpD092M=
+  resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.6.14.tgz#a2f0e7d985670d42c9c9ee0d044fed7690f4f763"
+  integrity sha512-ODQS1SyMbjKoO1JBJZojSw6FE4qnh9rIpUZn2EUT86FKizx9uH5z6uXiIrm4/Nb/gwxTi/o17ZDEGWAXHvtC7g==
   dependencies:
     de-indent "^1.0.2"
     he "^1.1.0"
